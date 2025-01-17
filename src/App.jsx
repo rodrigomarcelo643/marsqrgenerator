@@ -84,7 +84,7 @@ function App() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Type something..."
+            placeholder="Enter Url or Text..."
             onBlur={handleGenerate}
             className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-[#343a40]"
           />
